@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# presentation requires 7 increases in text size in the kitty terminal
+
 
 figlet -f standard "
 
@@ -15,12 +17,9 @@ figlet -f standard "
 
 
 Large Language Models
-
-
 "
-
+kitten icat ./assets/ChatGPT_logo_Square.svg
 read -rsn1 data
-echo $data
 
 figlet -f standard "
 
