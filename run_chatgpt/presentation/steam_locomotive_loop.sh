@@ -6,16 +6,16 @@ while :
 do
     # print the title of presentation
     clear
-    figlet -f slant "
+    figlet -f standard "
 
 
 
-
+Science Symposium:
 How To Run Your Own Chat-GPT*"
-    sleep 3
+    sleep 10
     clear
     # change animation based on random number
-    rannum=$(($RANDOM % 3))
+    rannum=$(($RANDOM % 4))
     if (($rannum==0)); then
         sl -e
     fi

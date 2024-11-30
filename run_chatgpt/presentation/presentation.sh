@@ -14,9 +14,10 @@ echo $data
 figlet -f standard "
 
 
+Large Language Models
 
 
-Slide 1"
+"
 
 read -rsn1 data
 echo $data
@@ -24,7 +25,18 @@ echo $data
 figlet -f standard "
 
 
-Slide 2
+Why Chat-GPT*? Why the asterisk?
+
+
+"
+
+read -rsn1 data
+echo $data
+
+figlet -f standard "
+
+
+Why Chat-GPT*? Why the asterisk?
 
 
 "
@@ -41,4 +53,10 @@ Slide 2
 # How to get more out of it
 #
 # References
-# sl by mtoyoda command (https://github.com/mtoyoda/sl)
+# sl github:https://github.com/mtoyoda/sl
+#       website:http://www.tkl.iis.u-tokyo.ac.jp/~toyoda/index_e.html
+# figlet site:http://www.figlet.org/
+# Llama is not Open Source due to a new definition
+#       https://techcrunch.com/2024/10/28/we-finally-have-an-official-definition-for-open-source-ai/
+#       llama being 'open source'
+#       https://alternativeto.net/browse/search/?search=llama&q=llama
