@@ -2,37 +2,41 @@
 A collection of files and assets for Science Symposium events
 
 ## How To Run Your Own Chat-GPT
-Instructions are from the [Ollama Project](https://github.com/ollama/ollama)
-But if you don't have the time to read their project, don't worry. I have the
-key commands and instructions below.
+Instructions here are just copies from the 
+[Ollama Project](https://github.com/ollama/ollama).
+
+But if you just want a quick summary, I have the key commands and instructions
+below.
 
 ### Installation and first run
 1. Download your installer. 
-
-[Click here for Windows](https://ollama.com/download/OllamaSetup.exe).
-
-[Click here for MacOS](https://ollama.com/download/OllamaSetup.exe). 
-
-But if you are running Linux, run this command on your terminal:
-```
-curl -fsSL https://ollama.com/install.sh | sh
-```
-
+    
+    [Download for Windows](https://ollama.com/download/OllamaSetup.exe).
+    
+    [Download for MacOS](https://ollama.com/download/OllamaSetup.exe). 
+    
+    For Linux, run this command on your terminal:
+    ```
+    curl -fsSL https://ollama.com/install.sh | sh
+    ```
+    
 2. Run the installer
-Please provide your password when prompted. For MacOS, you will need to add to
-Applications.
+    Please provide your password when prompted. For MacOS, you will need to confirm
+    that you are adding the software to your Applications library.
+    
 3. Search your applications for 'terminal' and open that App
-4. In the terminal, type this command:
-```bash
-ollama run llama3.2:1b
-``` 
-press enter
 
-This will download a 1.3GB light-weight model. After the download compeletes,
-you will be given a prompt that looks like this.
-```
->>> Send a message (/? for help)
-``` 
+4. In the terminal, type this command:
+    ```bash
+    ollama run llama3.2:1b
+    ``` 
+    Then, press `Enter`
+    
+    This will download a 1.3GB light-weight model. After the download
+    compeletes, you will be given a prompt that looks like this.
+    ```
+    >>> Send a message (/? for help)
+    ``` 
 
 This is where you type your message to Llama just like in Chat-GPT.
 
@@ -81,10 +85,18 @@ installed models.
 ollama list
 ``` 
 
+### Final Thoughts
 Hope you enjoyed the event!
 
-PS: For those who attended the Science Symposium, thank you!
+For those who attended the Science Symposium, thank you!
+
 I also (secretly) taught you how to program with shell scripts! A programming 
 language that can automate tasks on your computer. All the commands we used
 was part of your OS's shell scripts language. It was very basic, but I hope
 it opens doors for you in the future.
+
+Finally, there's still so much more functionality in ollama than what I
+presented. Please look at the project's github to know more about Ollama
+and Llama.
+
+**Ingat!**
