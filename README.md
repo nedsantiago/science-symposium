@@ -5,8 +5,7 @@ A collection of files and assets for Science Symposium events
 Instructions here are just copies from the 
 [Ollama Project](https://github.com/ollama/ollama).
 
-But if you just want a quick summary, I have the key commands and instructions
-below.
+But if you want the instructions I gave during the event, I have that below.
 
 ### Installation and first run
 1. Download your installer. 
@@ -16,30 +15,37 @@ below.
     [Download for MacOS](https://ollama.com/download/OllamaSetup.exe). 
     
     For Linux, run this command on your terminal:
-    ```
+
+    ```bash
     curl -fsSL https://ollama.com/install.sh | sh
     ```
     
 2. Run the installer
+
     Please provide your password when prompted. For MacOS, you will need
     to confirm that you are adding the software to your Applications library.
     
 3. Search your applications for 'terminal' and open that App
 
 4. In the terminal, type this command:
+
     ```bash
     ollama run llama3.2:1b
     ``` 
-    Then, press `Enter` and a 1.3GB download will begin. After the download
-    completes, you will be given a prompt that looks like this.
+
+    Then, press `Enter` to start 1.3GB download. After downloading, you will
+    see a message that looks like this.
+
     ```
     >>> Send a message (/? for help)
     ``` 
+
+    This is where you type your message to Llama just like in Chat-GPT.
+
     Congratulations! You now have a running lightweight LLM in you computer.
 
-This is where you type your message to Llama just like in Chat-GPT.
-
 ### How to upgrade to a higher-power Llama model
+
 To upgrade, you need to install a newer and/or larger model. Please view
 the table below and select which model you want to download and install. Please
 keep in mind the download size and that larger models need more resources 
@@ -71,20 +77,26 @@ Here is a list of models as seen on the Ollama's Github page as of
 | Solar              | 10.7B      | 6.1GB | `ollama run solar`               |
 
 Please **run** the following command to add a new model
+
 ```bash
 ollama run [model name to add here]
 ``` 
+
 When you want to **r**e**m**ove a model from your computer, run:
+
 ```bash
 ollama rm [model name to delete here]
 ``` 
+
 Unsure of what models you have installed? You can **list** the installed models
 with this command:
+
 ```bash
 ollama list
 ``` 
 
 ### Final Thoughts
+
 Hope you enjoyed the event!
 
 For those who attended the Science Symposium, thank you!
