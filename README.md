@@ -2,14 +2,18 @@
 A collection of files and assets for Science Symposium events
 
 ## How To Run Your Own Chat-GPT
-Instructions were taken from the [Ollama Project](https://github.com/ollama/ollama)
+Instructions are from the [Ollama Project](https://github.com/ollama/ollama)
 But if you don't have the time to read their project, don't worry. I have the
 key commands and instructions below.
 
 ### Installation and first run
-1. Download your installer. [Click here for Windows](https://ollama.com/download/OllamaSetup.exe).
-[Click here for MacOS](https://ollama.com/download/OllamaSetup.exe). Run this
-command on Linux:
+1. Download your installer. 
+
+[Click here for Windows](https://ollama.com/download/OllamaSetup.exe).
+
+[Click here for MacOS](https://ollama.com/download/OllamaSetup.exe). 
+
+But if you are running Linux, run this command on your terminal:
 ```
 curl -fsSL https://ollama.com/install.sh | sh
 ```
@@ -33,23 +37,14 @@ you will be given a prompt that looks like this.
 This is where you type your message to Llama just like in Chat-GPT.
 
 ### How to upgrade to a higher-power Llama model
-Please run the following command to add a new model
-```bash
-ollama run [name of model to add here]
-``` 
-When you want to remove a model from your computer, run:
-```bash
-ollama rm [name of model to delete here]
-``` 
-Unsure of what models you have installed? Use this command to list the
-installed models.
-```bash
-ollama list
-``` 
+To upgrade, you need to install a newer and/or larger model. Please view
+the table below and select which model you want to download and install. Please
+keep in mind the download size and that larger models need more resources 
+(usually limited by the GPU) to run.
 
-Here is a list of models as listed on the Ollama Github as of 2nd December
-2024.
-| Model              | Parameters | Size  | Download                         |
+Here is a list of models as seen on the Ollama's Github page as of 
+2nd December2024.
+| Model              | Parameters | Size  | Download & Run Command           |
 | ------------------ | ---------- | ----- | -------------------------------- |
 | Llama 3.2          | 3B         | 2.0GB | `ollama run llama3.2`            |
 | Llama 3.2          | 1B         | 1.3GB | `ollama run llama3.2:1b`         |
@@ -72,5 +67,24 @@ Here is a list of models as listed on the Ollama Github as of 2nd December
 | LLaVA              | 7B         | 4.5GB | `ollama run llava`               |
 | Solar              | 10.7B      | 6.1GB | `ollama run solar`               |
 
+Please run the following command to add a new model
+```bash
+ollama run [name of model to add here]
+``` 
+When you want to remove a model from your computer, run:
+```bash
+ollama rm [name of model to delete here]
+``` 
+Unsure of what models you have installed? Use this command to list the
+installed models.
+```bash
+ollama list
+``` 
+
 Hope you enjoyed the event!
-PS: I just taught you how to program with shell scripts!
+
+PS: For those who attended the Science Symposium, thank you!
+I also (secretly) taught you how to program with shell scripts! A programming 
+language that can automate tasks on your computer. All the commands we used
+was part of your OS's shell scripts language. It was very basic, but I hope
+it opens doors for you in the future.
