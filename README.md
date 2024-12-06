@@ -2,13 +2,13 @@
 A collection of files and assets for Science Symposium events
 
 ## How To Run Your Own Chat-GPT
-Instructions here are just copies from the 
-[Ollama Project](https://github.com/ollama/ollama).
+Most instructions here were copied from the 
+[Ollama Github Repository](https://github.com/ollama/ollama).
 
 But if you want the instructions I gave during the event, I have that below.
 
 ### Installation and first run
-1. Download your installer. 
+1. Download your installer.
     
     [Download for Windows](https://ollama.com/download/OllamaSetup.exe).
     
@@ -33,7 +33,7 @@ But if you want the instructions I gave during the event, I have that below.
     ollama run llama3.2:1b
     ``` 
 
-    Then, press `Enter` to start 1.3GB download. After downloading, you will
+    Then, press `Enter` to start a 1.3GB download. After downloading, you will
     see a message that looks like this.
 
     ```
@@ -42,7 +42,7 @@ But if you want the instructions I gave during the event, I have that below.
 
     This is where you type your message to Llama just like in Chat-GPT.
 
-    Congratulations! You now have a running lightweight LLM in you computer.
+    Congratulations! You now have a running lightweight LLM in your computer.
 
 ### How to upgrade to a higher-power Llama model
 
@@ -51,7 +51,7 @@ the table below and select which model you want to download and install. Please
 keep in mind the download size and that larger models need more resources 
 (usually limited by the GPU and RAM) to run.
 
-Here is a list of models as seen on the Ollama's Github page as of 
+Here is a list of models as seen on Ollama's Github page as of 
 2nd December2024.
 | Model              | Parameters | Size  | Download & Run Command           |
 | ------------------ | ---------- | ----- | -------------------------------- |
